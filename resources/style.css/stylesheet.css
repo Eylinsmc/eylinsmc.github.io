@@ -75,17 +75,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 10px;
+    margin: 0px 30px;
     padding-top: 120px;
   }
 
   .words {
-    padding: 150px;
+    padding: 10px;
+    text-align: center;
     position: relative;
   }
 
   #home img {
-    height: 500px;
+    height: 300px;
     width: auto;
     margin-right: 100px;
     margin-left: 80px;
@@ -147,21 +148,12 @@ body {
   }
 
   #contact {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px auto;
-    padding: 15px auto;
-  }
-
-  #contact p {
-    margin-right: 400px;
+    text-align: center;
   }
 
   #contact img {
     height: 35px;
     width: auto;
-    margin-left: 400px;
   }
 
   .portfolio {
@@ -173,8 +165,8 @@ body {
   }
 
   .projects img{
-    height: 500px;
+    height: 320px;
     width: auto;
-    padding: 20px 20px;
+    padding: 20px;
     margin-left: 70px;
   }
