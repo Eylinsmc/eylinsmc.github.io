@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8F8;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: #76464A;
+    font-weight: 600px;
+    padding-right: 40px;
+  }
+
+  a:hover {
+    color: #75464a;
+    font-weight: bolder;
+  }
+
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    background-color: #F3EEEA;
+    align-items: center;
+    padding-bottom: 15px;
+  }
+
+  .personal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: auto;
+    color: #670c10;
+    font-weight: 600px;
+    position: relative;
+  }
+
+  .sections {
+    margin-right: 20px;
+    font-size: 18px;
+    position: relative;
+  }
+
+  h2 {
+    background-color: #F3EEEA;
+    height: 90px;
+    color: #75464a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+  }
+  
+  div {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 30px;
+  }
+
+  h5 {
+    color: #75464a;
+    font-weight: lighter;
+    font-size: 13px;
+    margin-top: -20px;
+    margin-left: 50px;
+  }
+
+  #home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+    padding-top: 120px;
+  }
+
+  .words {
+    padding: 150px;
+    position: relative;
+  }
+
+  #home img {
+    height: 500px;
+    width: auto;
+    margin-right: 100px;
+    margin-left: 80px;
+  }
+
+  h3 {
+    color: #aa7c7a;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 100px;
+  }
+
+  .container {
+    display: block;
+    text-align: center;
+  }
+
+  #services .skills {
+    text-align: center;
+    display: inline-block;
+  }
+
+  #services img {
+    height: 180px;
+  }
+
+  p {
+    font-size: 21px;
+    color: #aa7c7a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    margin: 10px auto;
+    letter-spacing: 0.5px;
+    border-radius: 30px;
+    border: 1px solid #75464a;
+  }
+
+  .button:hover {
+    background-color: #75464a;
+    border: 1px solid #75464a;
+    color: #F8F8F8;
+  }
+
+  h4 {
+    color: #75464a;
+    font-size: 30px;
+    font-weight: 100;
+  }
+
+  #contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    padding: 15px auto;
+  }
+
+  #contact p {
+    margin-right: 400px;
+  }
+
+  #contact img {
+    height: 35px;
+    width: auto;
+    margin-left: 400px;
+  }
+
+  .portfolio {
+    margin: 0 auto;
+    padding-top: 150px;
+    font-size: 50px;
+    text-align: center;
+    color: #670c10;
+  }
+
+  .projects img{
+    height: 500px;
+    width: auto;
+    padding: 20px 20px;
+    margin-left: 70px;
+  }
